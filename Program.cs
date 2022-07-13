@@ -51,12 +51,12 @@ if (number < 1 || number > 7)
     {
         Console.WriteLine("Бог создал в неделе ровно семь дней. Их не может быть больше или меньше");
     }
-if (number < 6)
+else if (number < 6)
     {
         Console.WriteLine("Будний день. Бегом работать!");
     }
-if (number > 5)
-    {
-        Console.WriteLine("Выходной. Можешь отдыхать ^^");
-    }
+    else
+        {
+            Console.WriteLine("Выходной. Можешь отдыхать ^^");
+        }
 */
